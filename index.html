@@ -32,18 +32,15 @@
 				<ul class="navbar-nav nav ml-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#education-section" class="nav-link"><span>Resume</span></a></li>
-					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-					<li class="nav-item"><a href="#side-projects-section" class="nav-link"><span>Side
-								Projects</span></a></li>
-					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+					<li class="nav-item"><a href="#page-1" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#side-projects-section" class="nav-link"><span>Side Projects</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<section class="hero-wrap js-fullheight">
+	<section class="hero-wrap js-fullheight" id="home-section">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
@@ -141,517 +138,464 @@
 		</div>
 	</section>
 
-	<!-- Resume Section -->
-	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<nav id="navi">
-						<ul>
-							<li><a href="#page-5">Awards</a></li>
-							<li><a href="#page-2">Experience</a></li>
-							<li><a href="#page-4">Projects</a></li>
-							<li><a href="#page-6">Patents</a></li>
-							<li><a href="#page-1">Education</a></li>
-							<li><a href="#page-7">어학등급</a></li>
-						</ul>
-					</nav>
+<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+	<div class="container">
+		<div class="row">
+			<!-- 좌측 내비게이션 (부트스트랩 nav-pills, flex-column 적용) -->
+			<div class="col-md-3">
+				<nav id="navi" class="nav nav-pills flex-column">
+					<li><a href="#page-1">Education</a>
+					<li><a href="#page-5">Awards</a>
+					<li><a href="#page-2">Experience</a>
+					<li><a href="#page-4">Projects</a>
+					<li><a href="#page-6">Patents</a>
+					<li><a href="#page-7">Language Skills</a>
+					<li><a href="#page-8">Tech Spec</a>
+				</nav>
+			</div>
+			<!-- 오른쪽 내용 -->
+			<div class="col-md-9">
+				<!-- Education Section (ID: page-1) -->
+				<div id="page-1" class="page one">
+					<h2 class="heading">Education</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2023 ~ 현재</span>
+							<h2>정보통신공학과 석사 과정</h2>
+							<span class="position">Sejong University</span>
+							<p>
+								세종대학교 자율지능시스템 연구실(AISL)에서 디지털 트윈 및 로보틱스 관련 개발 및 연구를 맡고 있습니다.<br>
+								영국 Coventry University에 Visiting Researcher로 해외 인턴쉽을 진행하며 다문화 국가의 사람들과 다양한 프로젝트에
+								참여했습니다.<br>
+								Into SKY에서 주최하는 AI Drone Challenge에서 3위 수상<br>
+								?????????????????엉엉 ICT 챌린지는 두 번 다 광탈<br>
+								?????????????????ITRC 코엑스 전시회 두 번 진행<br>
+								?????????????????대만에서 강화학습 관련 개인 연구 전시<br>
+								2024 서울 지능형 사물인터넷(AIoT) 해커톤 대회 본선 진출
+								나 공부 잘해서 받는 장학금 두 번 받은 거 적어야 함
+							</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2020-2023</span>
+							<h2>전자정보통신공학과 학사 과정</h2>
+							<span class="position">Sejong Univercity</span> <br>
+							대학교 내 전문 작문 교육 수료 후 선발되어 유학생 글쓰기 교정 튜터로 1년 활동.<br>
+							봉사 연합 동아리 로타랙트에서 2021.08 ~ 2023.08까지 봉사부장으로 동아리 활성화 및 봉사활동 진행.<br>
+							대학교 과후배 대상 일반 물리학 과외 (2021.03 ~ 2022.10).<br>
+							ETSI 주최 Intelligent IoT ONEM2M Hackathon에서 3위 수상.<br>
+							2022 Mobius International oneM2M Hackathon 국제대회에서 과학기술정보통신부 장관상 수상.<br>
+							????????????????엉엉 이상한 소융대 대회 참가 후 광탈.<br>
+							4.5 만점 기준 전체/전공 평점 4.16/4.13으로 우수하게 졸업.
+						</div>
+					</div>
 				</div>
-				<div class="col-md-9" id="awards-section">
-					<!-- Awards Section -->
-					<div id="page-5" class="page five">
-						<h2 class="heading">Awards</h2>
-						<!-- 과학기술정보통신부 장관상 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2022.11</span>
-								<div class="d-flex">
-									<h2>과학기술정보통신부 장관상</h2>
-									<div>
-										&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://www.hackster.io/blossom/fire-situation-monitoring-system-through-connection-with-dt-365f98">
-											프로젝트 설명
-										</a>
-										&nbsp;&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://zdnet.co.kr/view/?no=20221129110326">
-											뉴스기사
-										</a>
-									</div>
+
+				<!-- Awards Section (ID: page-5) -->
+				<div id="page-5" class="page five">
+					<h2 class="heading">Awards</h2>
+					<!-- 과학기술정보통신부 장관상 -->
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-trophy"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2022.11</span>
+							<div class="d-flex">
+								<h2>과학기술정보통신부 장관상</h2>
+								<div>
+									&nbsp;
+									<a class="btn btn-outline-secondary" target="_blank"
+										href="https://www.hackster.io/blossom/fire-situation-monitoring-system-through-connection-with-dt-365f98">
+										프로젝트 설명
+									</a>
+									&nbsp;&nbsp;
+									<a class="btn btn-outline-secondary" target="_blank"
+										href="https://zdnet.co.kr/view/?no=20221129110326">
+										언론
+									</a>
 								</div>
-								<span class="position">2022 Mobius International oneM2M Hackathon</span><br>
-								<b class="text-primary">시나리오</b>
-								<p>
-									건물 내 화재 상황을 신속히 인지하고, 소방 당국에 알리는 동시에 디지털 트윈 상에 화재 구역을 표시하여<br>
-									화재 현황 및 인명 구조를 지원하는 프로젝트를 진행하였습니다. <br>
-									Isaac Sim을 활용해 건물의 3D 모델(5층 구조)을 구성하고, 화재 발생 상황과 인원 위치를 실시간으로 반영해<br>
-									모니터링했습니다. 또한, AIaaS를 통해 CCTV 영상을 분석해 인원 수 및 사람의 관절(포즈 추정)을 파악하고,
-									이를 디지털 트윈에 시각화하여 소방관이 현장 상황을 한눈에 파악할 수 있도록 했습니다.
-								</p>
-								<b class="text-primary">맡은 역할</b>
-								<p>
-									Isaac Sim 환경 구성 및 화재 상황 시각화(불, 연기 시각화), Mobius로부터 사람 포즈 정보를 수신하여 Isaac Sim 내부 휴머노이드와
-									실시간 동기화,<br>
-									Mobius RESTful API 연동을 통한 센서·로봇 데이터 관리 로직 구현
-								</p>
-								<b class="text-primary">기술 스택</b>
-								<p>
-									Python, Isaac Sim, Mobius Platform(RESTful API)
-								</p>
 							</div>
+							<span class="position">2022 Mobius International oneM2M Hackathon</span><br>
+							<b class="text-primary">시나리오</b>
+							<p>
+								건물 내 화재 상황을 신속히 인지하고, 소방 당국에 알리며 동시에 디지털 트윈 상에 화재 구역을 표시하여<br>
+								화재 현황 및 인명 구조를 지원하는 프로젝트 진행.<br>
+								Isaac Sim을 활용해 건물의 3D 모델(5층 구조)을 구성하고, 화재 발생 상황과 인원 위치를 실시간 반영.<br>
+								AIaaS를 통해 CCTV 영상을 분석하여 인원 수 및 관절(포즈 추정) 정보를 디지털 트윈에 시각화.
+							</p>
+							<b class="text-primary">맡은 역할</b>
+							<p>
+								Isaac Sim 환경 구성 및 화재(불, 연기) 시각화, Mobius로부터 사람 포즈 정보 수신 후 Isaac Sim 내 휴머노이드와 실시간 동기화,<br>
+								Mobius RESTful API 연동을 통한 센서·로봇 데이터 관리 로직 구현.
+							</p>
+							<b class="text-primary">기술 스택</b>
+							<p>Python, Isaac Sim, Mobius Platform(RESTful API)</p>
 						</div>
-						<!-- Intelligent IoT ONEM2M Hackathon 3위 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2021</span>
-								<h2>Intelligent IoT ONEM2M Hackathon 3위</h2>
-								<span class="position">ETSI</span>
-								<p>
-									ICT 기술 표준을 개발하는 유럽의 국제 표준화 기관인 ETSI와 세종대에서 주관하는<br>
-									국제 표준 IoT 플랫폼인 Mobius를 활용하는 대회에서 3위 수상
-								</p>
-							</div>
+					</div>
+					<!-- Intelligent IoT ONEM2M Hackathon 3위 -->
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-trophy"></span>
 						</div>
-						<!-- AI Drone Challenge -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024</span>
+						<div class="text pl-3">
+							<span class="date">2021</span>
+							<h2>Intelligent IoT ONEM2M Hackathon 3위</h2>
+							<span class="position">ETSI</span>
+							<p>
+								ETSI와 세종대 주관 국제 표준 IoT 플랫폼 Mobius 활용 대회에서 3위 수상.
+							</p>
+						</div>
+					</div>
+					<!-- AI Drone Challenge -->
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-trophy"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2024</span>
+							<div class="d-flex">
 								<h2>AI Drone Challenge 3위</h2>
-								<span class="position">Into SKY</span>
-								<p>Into SKY에서 주최하는 AI Drone 챌린지에서 3위 수상</p>
+								<div>&nbsp;
+									<a class="btn btn-outline-secondary" target="_blank" href="https://news.unn.net/news/articleView.html?idxno=560569">
+										언론
+									</a>
+								</div>
 							</div>
+							<span class="position">Into SKY</span>
+							<p>Into SKY 주최 AI Drone 챌린지에서 3위 수상.</p>
 						</div>
 					</div>
+				</div>
 
-					<!-- Work Experience Section -->
-					<div id="page-2" class="page two">
-						<h2 class="heading">Work Experience</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2025.02 ~ 현재</span>
-								<h2>Isaac Sim 책 집필</h2>
-								<p>로봇 시뮬레이션 프로그램 IsaacSim 입문자를 위한 책 집필</p>
-							</div>
+				<!-- Experience Section (ID: page-2) -->
+				<div id="page-2" class="page two">
+					<h2 class="heading">Work Experience</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
 						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+						<div class="text pl-3">
+							<span class="date">2025.02 ~ 현재</span>
+							<h2>Isaac Sim 책 집필</h2>
+							<p>로봇 시뮬레이션 프로그램 IsaacSim 입문자를 위한 책 집필</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2024.06-2024.12 (6개월)</span>
+							<h2>UK Coventry University Visiting Researcher</h2>
+							<span class="position">방문 연구원 (해외 인턴쉽)</span>
+							<p>
+								- 드론을 이용한 소포 수거 시스템 개발<br>
+								<b class="text-primary">기술 스택</b>
+							<p>
+								- SolidWorks, Blender, Krita, ROS2, ROS, OpenCV, open3D, PX4Autopilot, gazebo-classic,
+								C++, python
+							</p>
+							<b class="text-primary">성과</b>
+							<div>
+								<div> - 커스텀 드론 및 매니퓰레이터 설계, 3D 프린터 활용 프로젝트용 드론 제작</div>
+								<div> - PX4, Jetson Orin Nano, ESC, 프로펠러, 각종 센서 납땜 및 회로 연결</div>
+								<div> - 가제보 클래식 SITL, HITL 테스트 배드 구축</div>
+								<div> - Aruco Marker 기반 소포 위치 추정 및 그리퍼-소포 위치, tolerance 계산 시스템 개발</div>
+								<div> - PX4 칼만필터 설정 및 PID 튜닝 진행</div>
+								<div> - NEC 주최 Advanced Engineering Event에서 연구 개발 내용 전시</div>
 							</div>
-							<div class="text pl-3">
-								<span class="date">2024.06-2024.12 (6개월)</span>
-								<h2>UK Coventry University Visiting Researcher</h2>
-								<span class="position">방문 연구원 (해외 인턴쉽)</span>
-								<p>
-									드론을 이용한 소포 수거 시스템 개발<br>
-									<b class="text-primary">기술 스택</b>
-								<p>
-									SolidWorks, Blender, Krita, ROS2, ROS, OpenCV, open3D, PX4Autopilot, gazebo-classic,
-									C++, python
-								</p>
-								<b class="text-primary">성과</b>
+							</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2024.07 ~ 2024.08</span>
+							<h2>제16회 유럽-한국 과학기술학술대회 (EKC 2024) 서포터즈</h2>
+							<span class="position">영국 워릭대학교, 코번트리</span><br>
+							<b class="text-primary">주요 활동 내용</b>
+							<p>
+								- 학술 세션 운영 및 관리, SNS 공유, 프린트 출력 등 부가 기능 지원 <br>
+								- 국제 학술 발표 및 네트워킹 프로그램 진행 보조 <br>
+								- 영어를 통한 원활한 세션 진행으로 다양한 국적의 참가자 간 소통 촉진 <br>
+							</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2023.08-2021.08</span>
+							<h2>Rotaract 봉사부장</h2>
+							<span class="position">Sejong University</span>
+							<p>
+								<!-- 내용 추가 필요 -->
+							</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2021.01-2022.01</span>
+							<h2>세종대학교 글쓰기 튜터</h2>
+							<span class="position">Cambridge University</span>
+							<p>
+								<!-- 내용 추가 필요 -->
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Projects Section (ID: page-4) -->
+				<div id="page-4" class="page four">
+					<h2 id="projects-section" class="heading">Projects</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2019.09-2020.08</span>
+							<div class="d-flex">
+								<h2>웰리스 여행 상품 예약 플랫폼 개발</h2>
 								<div>
-									<div> - CAD 프로그램을 이용하여 커스텀 드론, 매니퓰레이터 설계 진행, 3D 프린터를 이용하여 프로젝트용 드론 제작</div>
-									<div> - PX4 (Flight Controller), 엣지컴퓨터(Jetson Orin Nano), ESC, 프로펠러, 각종 센서 납땜 및 회로
-										연결</div>
-									<div> - 알고리즘 성능 및 테스트를 위하여 가제보 클래식에 SITL, HITL 테스트 배드 구축</div>
-									<div> - OpenCV 및 Open3D를 이용하여 Aruco Marker 기반 소포 위치 추정 시스템 개발 및 소포 잡기를 위한 그리퍼 - 소포
-										위치 및 tolerance 계산 시스템 개발</div>
-									<div> - 실제 드론 제어를 위해 PX4에서 칼만필터 설정 및 제어를 위해 PID 튜닝 진행</div>
-									<div> - NEC(National Exhibition Centre)에서 진행하는 Advanced Engineering Event에서 연구 개발 내용
-										전시</div>
+									&nbsp;
+									<a class="btn btn-outline-secondary" target="_blank"
+										href="https://github.com/congchu/portfolio-template-2">Github</a>
+									&nbsp;
+									<a class="btn btn-outline-secondary" target="_blank"
+										href="/images/project_1_screenshot.png">스크린샷</a>
+									&nbsp;
+									<a class="btn btn-outline-secondary" target="_blank"
+										href="https://www.wellytravel.com/">Link</a>
 								</div>
-								</p>
 							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+							<span class="position">주식회사 더라피스</span>
+							<div>
+								<b class="text-dark">기술 스택 : </b>React, Typescript, Next.js, Styled-Component, MobX
 							</div>
-							<div class="text pl-3">
-								<span class="date">2024.07 ~ 2024.08</span>
-								<h2>제16회 유럽-한국 과학기술학술대회 (EKC 2024) 서포터즈</h2>
-								<span class="position">영국 워릭대학교, 코번트리</span><br>
-								<b class="text-primary">주요 활동 내용</b>
-								<p>
-									- 학술 세션 운영 및 관리, SNS 공유, 프린트 출력 등 부가 기능 지원 <br>
-									- 국제 학술 발표 및 네트워킹 프로그램 진행 보조 <br>
-									- 영어를 통한 원활한 세션 진행으로 다양한 국적의 참가자 간 소통 촉진 <br>
-								</p>
+							<div>
+								<b class="text-dark">주요 기능 : </b>회원 관리 및 SNS 로그인, 상품 리스트, 상세 정보 확인, 예약 관리, 결제
 							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023.08-2021.08</span>
-								<h2>Rotaract 봉사부장</h2>
-								<span class="position">Sejong University</span>
-								<p>
-									<!-- 내용 추가 필요 -->
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2021.01-2022.01</span>
-								<h2>세종대학교 글쓰기 튜터</h2>
-								<span class="position">Cambridge University</span>
-								<p>
-									<!-- 내용 추가 필요 -->
-								</p>
-							</div>
+							<p>React</p>
 						</div>
 					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2014-2015</span>
+							<h2>Top 5 LeaderShip Exellence Winner</h2>
+							<span class="position">Cambridge University</span>
+							<p>
+								A small river named Duden flows by their place and supplies it with the necessary
+								regelialia.
+								It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+							</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2014-2015</span>
+							<h2>Top 4 Web Tester</h2>
+							<span class="position">Cambridge University</span>
+							<p>
+								A small river named Duden flows by their place and supplies it with the necessary
+								regelialia.
+								It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+							</p>
+						</div>
+					</div>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-ideas"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2014-2015</span>
+							<h2>Art &amp; Creative Director</h2>
+							<span class="position">Cambridge University</span>
+							<p>
+								A small river named Duden flows by their place and supplies it with the necessary
+								regelialia.
+								It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+							</p>
+						</div>
+					</div>
+				</div>
 
-					<!-- Projects Section -->
-					<div id="page-4" class="page four">
-						<h2 id="projects-section" class="heading">Projects</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2019.09-2020.08</span>
-								<div class="d-flex">
-									<h2>웰리스 여행 상품 예약 플랫폼 개발</h2>
-									<div>
-										&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://github.com/congchu/portfolio-template-2">Github</a>
-										&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="/images/project_1_screenshot.png">스크린샷</a>
-										&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://www.wellytravel.com/">Link</a>
-									</div>
-								</div>
-								<span class="position">주식회사 더라피스</span>
-								<div>
-									<b class="text-dark">기술 스택 : </b>React, Typescript, Next.js, Styled-Component, MobX
-								</div>
-								<div>
-									<b class="text-dark">주요 기능 : </b> 회원 관리 및 SNS 로그인, 상품 리스트 확인, 상품 상세 정보 확인, 예약 관리, 결제
-								</div>
-								<p>React</p>
-							</div>
+				<!-- Patents Section (ID: page-6) -->
+				<div id="page-6" class="page six">
+					<h2 class="heading">Patents</h2>
+					<!-- 특허 1 -->
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-patent"></span>
 						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 5 LeaderShip Exellence Winner</h2>
-								<span class="position">Cambridge University</span>
-								<p>
-									A small river named Duden flows by their place and supplies it with the necessary
-									regelialia.
-									It is a paradisematic country, in which roasted parts of sentences fly into your
-									mouth.
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Top 4 Web Tester</h2>
-								<span class="position">Cambridge University</span>
-								<p>
-									A small river named Duden flows by their place and supplies it with the necessary
-									regelialia.
-									It is a paradisematic country, in which roasted parts of sentences fly into your
-									mouth.
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2014-2015</span>
-								<h2>Art &amp; Creative Director</h2>
-								<span class="position">Cambridge University</span>
-								<p>
-									A small river named Duden flows by their place and supplies it with the necessary
-									regelialia.
-									It is a paradisematic country, in which roasted parts of sentences fly into your
-									mouth.
-								</p>
-							</div>
+						<div class="text pl-3">
+							<span class="date">2024.10.08</span>
+							<h2>가상 공간을 이용한 로봇 제어 방법</h2>
+							<span class="position">특허번호: 10-2024-0136536</span>
+							<p>
+								HMD 착용 후 원격 및 가상 공간에 위치한 로봇 제어 방법으로, 로봇이 위치한 공간의 가상 공간을 생성하고<br>
+								관심 있는 물체/공간 정보만을 제공하여 제어하는 방식을 제시
+							</p>
 						</div>
 					</div>
+					<!-- 특허 2 -->
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-patent"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2023.11.09</span>
+							<h2>로봇 및 로봇의 이동 경로를 생성하는 방법</h2>
+							<span class="position">특허번호: 10-2023-0154091</span>
+							<p>
+								로봇과 그 이동 경로를 최적화하기 위한 제어 방법으로, 효율적인 경로 생성을 제공하는 방식을 제시
+							</p>
+						</div>
+					</div>
+					<!-- 특허 3 -->
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-patent"></span>
+						</div>
+						<div class="text pl-3">
+							<span class="date">2023.11.09</span>
+							<h2>효율적인 디지털 트윈 동기화를 위한 RoI 기반 동기화 프로그램 발명신고서</h2>
+							<span class="position">특허번호: 10-2023-0154132</span>
+							<p>
+								RoI(Region of Interest) 기반 동기화 프로그램을 통해 디지털 트윈의 효율적 동기화를 달성, 실시간 데이터 최적화에 활용
+							</p>
+						</div>
+					</div>
+				</div>
 
-					<!-- Patents Section -->
-					<div id="page-6" class="page six">
-						<h2 class="heading">Patents</h2>
-						<!-- 특허 1 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-patent"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024.10.08</span>
-								<h2>가상 공간을 이용한 로봇 제어 방법</h2>
-								<span class="position">특허번호: 10-2024-0136536</span>
-								<p>
-									HMD를 착용하여 원격 및 가상 공간에 위치한 로봇을 제어하는 방법으로 로봇이 위치한 공간에 대해 가상 공간을 생성하고, <br>
-									관심있는 물체 혹은 공간만을 로봇에게 정보를 제공하여 로봇을 제어하는 방법을 제시
-								</p>
-							</div>
+				<!-- Language Skills Section (ID: page-7) -->
+				<div id="page-7" class="page seven">
+					<h2 class="heading">Language Skills</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-language"></span>
 						</div>
-						<!-- 특허 2 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-patent"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023.11.09</span>
-								<h2>로봇 및 로봇의 이동 경로를 생성하는 방법</h2>
-								<span class="position">특허번호: 10-2023-0154091</span>
-								<p>
-									로봇과 그 이동 경로를 최적화하기 위한 제어 방법에 관한 특허로, 효율적인 경로 생성을 제공하는 방법을 제시
-								</p>
-							</div>
-						</div>
-						<!-- 특허 3 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-patent"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023.11.09</span>
-								<h2>효율적인 디지털 트윈 동기화를 위한 RoI 기반 동기화 프로그램 발명신고서</h2>
-								<span class="position">특허번호: 10-2023-0154132</span>
-								<p>
-									RoI(Region of Interest) 기반 동기화 프로그램을 통해 디지털 트윈의 효율적인 동기화를 달성하는 기술로, 실시간 데이터 최적화에 활용
-								</p>
-							</div>
+						<div class="text pl-3">
+							<span class="date">2024</span>
+							<h2>OPIc: AL</h2>
+							<span class="position">English</span>
+							<p>준원어민에 상응하는 회화 실력 보유 – 영어로 업무 가능</p>
 						</div>
 					</div>
+				</div>
 
-					<!-- Education Section -->
-					<div id="page-1" class="page one">
-						<h2 class="heading">Education</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023 ~ 현재</span>
-								<h2>정보통신공학과 석사 과정</h2>
-								<span class="position">Sejong University</span>
-								<p>
-									세종대학교 자율지능시스템 연구실(AISL)에서 디지털 트윈 및 로보틱스에 관련된 개발 및 연구를 맡고 있습니다.<br>
-									영국 Coventry University에 Visiting Researcher로 해외인턴쉽을 하며 다문화 국가 사람들과 다양한 프로젝트를 진행했습니다.<br>
-									Into SKY에서 주최하는 AI Drone Challenge에서 3위 수상<br>
-									?????????????????엉엉 ICT 챌린지는 두 번 다 광탈임<br>
-									?????????????????ITRC 코엑스 전시회 두 번 진행<br>
-									?????????????????대만에서 강화학습 관련하여 개인 연구 진행한 거 전시<br>
-									2024 서울 지능형 사물인터넷(AIoT) 해커톤 대회 본선 진출
-								</p>
-							</div>
+				<!-- Tech Spec Section (ID: page-8) -->
+				<div id="page-8" class="page eight">
+					<h2 class="heading">Tech Spec</h2>
+					<div class="resume-wrap d-flex ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="flaticon-cog"></span>
 						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2020-2023</span>
-								<h2>전자정보통신공학과 학사 과정</h2>
-								<span class="position">Sejong Univercity</span> <br>
-								대학교 내에서 전문 작문 교육 수료 후 선발을 통해 유학생들의 글쓰기를 교정해주는 글쓰기 튜터로 1년 활동하였습니다.<br>
-								봉사 연합 동아리 로타랙트에서 2021.08 ~ 2023.08까지 봉사부장으로 활동하며 동아리 활성화 및 봉사활동 진행<br>
-								대학교 과후배들을 대상으로 2021.03 ~ 2022.10까지 일반 물리학 과외 진행<br>
-								ICT 기술 표준을 개발하는 유럽의 국제 표준화 기관인 ETSI 주최 Intelligent IoT ONEM2M Hackathon에서 3위 수상<br>
-								2022 Mobius International oneM2M Hackathon 국제대회에서 과학기술정보통신부 장관상 수상<br>
-								????????????????엉엉 이상한 소융대 대회 나갔다가 광탈당함<br>
-								4.5 만점 기준 전체 평점/전공 평점 4.16/4.13으로 우수하게 졸업
-							</div>
+						<div class="text pl-3">
+							<p>
+								시스템 아키텍처, 하드웨어 및 소프트웨어 스펙, 통신 프로토콜, 보안 체계 등 상세 기술 사양 기술.<br>
+								Python, Isaac Sim, Mobius Platform(RESTful API) 등을 활용하여 구현한 개발 경험 기반 기술 명세.
+							</p>
 						</div>
 					</div>
-					<!-- 어학등급 Section -->
-					<div id="page-7" class="page seven">
-						<h2 class="heading">Language Skills</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-language"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024</span>
-								<h2>OPIc: AL</h2>
-								<span class="position">English</span>
-								<p>준원어민에 상응하는 회화 실력을 보유하여 영어로 업무 가능합니다.</p>
-							</div>
-						</div>
-					</div>
-				</div> <!-- end of col-md-9 -->
-			</div> <!-- end of row -->
-		</div> <!-- end of container -->
-	</section>
+				</div>
+			</div> <!-- end col-md-9 -->
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section>
 
-	<section class="ftco-section ftco-project">
-		<div class="container-fluid px-md-0">
-			<div class="row no-gutters justify-content-center pb-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Projects</h1>
-					<h2 id="side-projects-section" class="mb-4">Side Projects</h2>
-					<p>꾸준히 사이드 프로젝트를 진행하며, 다양한 분야의 기술 스택을 경험해왔습니다.</p>
+<section class="ftco-section ftco-project">
+	<div class="container-fluid px-md-0">
+		<div class="row no-gutters justify-content-center pb-5">
+			<div class="col-md-12 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Projects</h1>
+				<h2 id="side-projects-section" class="mb-4">Side Projects</h2>
+				<p>꾸준히 사이드 프로젝트를 진행하며, 다양한 분야의 기술 스택을 경험해왔습니다.</p>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+					style="background-image: url(images/mobius.png);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a target="_blank" href="https://youtu.be/BmTxjMREAmQ?si=Kcckz9aI2rC31UUm"> Mobius IoT 해커톤 대회</a></h3>
+						<span>Isaac Sim 시뮬레이션 환경 구성 및<br> 사람 자세 동기화</span>
+					</div>
 				</div>
 			</div>
-			<div class="row no-gutters">
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/side-project-1.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a target="_blank" href="https://qpi.kr/">QPI - 소개팅 서비스 소개 페이지 개발</a></h3>
-							<span>UI/UX 디자인부터 웹 호스팅까지 전체 영역을 담당하였습니다.</span>
-						</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+					style="background-image: url(images/pick&place.png);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://youtu.be/ldfOBDbt8rA?si=CmFikAux1stxe9Uq">Isaac Sim Pick & Place</a></h3>
+						<span>with moveit & Nvidia FoundationPose</span>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/work-2.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-							<span>Web Design</span>
-						</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+					style="background-image: url(images/picknplace.png);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://www.youtube.com/watch?v=yOf610OOJJs">Isaac Sim Pick & Place</a></h3>
+						<span>with Lula Kinematics Solver</span>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/work-3.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-							<span>Web Design</span>
-						</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+					style="background-image: url(images/capstone.png);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://www.youtube.com/watch?v=fYmQh4cGDlI&list=PLDnVfwCfp_phyjBFijsSl2J2_lvlOg2I_">졸업작품</a></h3>
+						<span>반도체 이상검증 & 스마트 팩토리</span>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/work-4.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-							<span>Web Design</span>
-						</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+					style="background-image: url(images/pidtuning.png);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://www.youtube.com/watch?v=lqWkjuPhBdg">Custom Drone in Gazebo</a></h3>
+						<span>with Heuristic PID tuning</span>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/work-5.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-							<span>Web Design</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/work-6.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-							<span>Web Design</span>
-						</div>
+			</div>
+			<div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+					style="background-image: url(images/poseestimation.png);">
+					<div class="overlay"></div>
+					<div class="text text-center p-4">
+						<h3><a href="https://www.youtube.com/watch?v=qRFXGC1kpfQ">Pose Estimation</a></h3>
+						<span>with Aruco marker</span>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-
-	<section class="ftco-section" id="blog-section">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-5">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Blog</h1>
-					<h2 class="mb-4">My Blog</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-				</div>
-			</div>
-			<div class="row d-flex">
-				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
-						<a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');"></a>
-						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-							</h3>
-							<div class="d-flex align-items-center mb-3 meta">
-								<p class="mb-0">
-									<span class="mr-2">Sept. 12, 2019</span>
-									<a href="#" class="mr-2">Admin</a>
-									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-								</p>
-							</div>
-							<p>A small river named Duden flows by their place and supplies it with the necessary
-								regelialia.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
-						<a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');"></a>
-						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-							</h3>
-							<div class="d-flex align-items-center mb-3 meta">
-								<p class="mb-0">
-									<span class="mr-2">Sept. 12, 2019</span>
-									<a href="#" class="mr-2">Admin</a>
-									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-								</p>
-							</div>
-							<p>A small river named Duden flows by their place and supplies it with the necessary
-								regelialia.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex ftco-animate">
-					<div class="blog-entry">
-						<a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');"></a>
-						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-							</h3>
-							<div class="d-flex align-items-center mb-3 meta">
-								<p class="mb-0">
-									<span class="mr-2">Sept. 12, 2019</span>
-									<a href="#" class="mr-2">Admin</a>
-									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-								</p>
-							</div>
-							<p>A small river named Duden flows by their place and supplies it with the necessary
-								regelialia.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	</div>
+</section>
 
 	<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg);">
 		<div class="overlay"></div>
