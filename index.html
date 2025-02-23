@@ -66,69 +66,64 @@
 		</div>
 	</section>
 
-	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+	<section class="ftco-about img ftco-section" id="about-section">
 		<div class="container">
-			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-6 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
-						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/about.jpg);"></div>
+			<!-- 첫 번째 줄: 프로필 사진 & 연락처/링크 -->
+			<div class="row align-items-center">
+				<!-- 왼쪽: 프로필 사진 -->
+				<div class="col-md-4 d-flex justify-content-center">
+					<div class="profile-img" style="
+				width: 200px;
+				height: 200px;
+				background-image: url('images/about.jpg');
+				background-size: cover;
+				background-position: center;
+				border-radius: 50%;
+				">
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
-					<div class="row justify-content-start pb-3">
-						<div class="col-md-12 heading-section ftco-animate">
-							<h1 class="big">About</h1>
-							<h2 class="mb-4">About Me</h2>
-							<p>올라운더 로보틱스 엔지니어를 지향합니다.</p>
-							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span> <span>오현수</span></li>
-								<li class="d-flex"><span>Address:</span> <span>서울특별시 노원구 중계동</span></li>
-								<li class="d-flex"><span>Email:</span> <span>hans324oh@gmail.com</span></li>
-								<li class="d-flex">
-									<span>LinkedIn: </span>
-									<span>
-										<a href="https://www.linkedin.com/in/%ED%98%84%EC%88%98-%EC%98%A4-3ab8ba2b8/"
-											target="_blank">
-											<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-												alt="LinkedIn">
-										</a>
-									</span>
-								</li>
-								<li class="d-flex">
-									<span>GitHub: </span>
-									<span>
-										<a href="https://github.com/ssapsu" target="_blank">
-											<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-												alt="GitHub">
-										</a>
-									</span>
-								</li>
-								<li class="d-flex">
-									<span>YouTube: </span>
-									<span>
-										<a href="https://www.youtube.com/@%EC%98%A4%ED%98%84%EC%88%98-f7e"
-											target="_blank">
-											<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
-												alt="YouTube">
-										</a>
-									</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="counter-wrap ftco-animate d-flex mt-md-3">
-						<div class="text">
-							<p>
-								<a target="_blank"
-									href="https://drive.google.com/file/d/1uJg0Yun35HWc4YsEKfEX5L6Uyik5MPl_/view?usp=sharing"
-									class="btn btn-primary py-3 px-3">
-									이력서 다운받기
-								</a>
-							</p>
-						</div>
-					</div>
+				<!-- 오른쪽: 이름, 연락처, 링크 -->
+				<div class="col-md-8">
+					<h2 class="mb-2">오현수</h2>
+					<ul class="list-unstyled">
+						<li class="mb-1"><strong>Email:</strong> hans324oh@gmail.com</li>
+						<li class="mb-1">
+							<strong>LinkedIn:</strong>
+							<a href="https://www.linkedin.com/in/%ED%98%84%EC%88%98-%EC%98%A4-3ab8ba2b8/" target="_blank">
+								<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+									alt="LinkedIn" style="height: 24px;">
+							</a>
+						</li>
+						<li class="mb-1">
+							<strong>GitHub:</strong>
+							<a href="https://github.com/ssapsu" target="_blank">
+								<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+									alt="GitHub" style="height: 24px;">
+							</a>
+						</li>
+						<li>
+							<strong>YouTube:</strong>
+							<a href="https://www.youtube.com/@%EC%98%A4%ED%98%84%EC%88%98-f7e" target="_blank">
+								<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
+									alt="YouTube" style="height: 24px;">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 두 번째 줄: INTRODUCE 제목과 내용이 좌우로 나란히 -->
+			<div class="row mt-5">
+				<!-- 왼쪽: INTRODUCE 제목 (상단 이미지와 동일한 4열) -->
+				<div class="col-md-4 text-center">
+					<h3>INTRODUCE</h3>
+				</div>
+				<!-- 오른쪽: 소개 텍스트 (상단 연락처/링크와 동일한 8열) -->
+				<div class="col-md-8">
+					<p>
+						학부 연구생, 석사 과정, 해외 인턴쉽 과정을 거쳐오며 로봇 엔지니어로서 디지털 트윈, 강화학습, AI 연구에 관련된 다양한 경험을 쌓아왔습니다. 제대로 된 프로덕트는 기반이 중요하다 생각하기에 기초 이론, 기술을 꾸준히 공부합니다. 하지만 또한 새로운 기술을 탐색하고 적용하는 것을 즐기기에 문제에 접근할 때 다양한 각도로 재조명하여 문제를 해결하는 방식을 선호합니다.<br><br>
+						할 수 있다를 외치는 엔지니어가 아닌 잘 할 수 있다를 외치는 도전 넘치는 엔지니어가 되는 것을 목표로 합니다. 하지만 동시에 겸손함을 지향하고 동료와 같이 성장하는 동료 엔지니어가 되고자 합니다. 항상 더 "나은" 개발환경,기술 및 문화를 탐색하며 이를 동료 및 후배들과 나누어 같이 성장하고자 합니다.<br><br>
+						오픈소스 프로젝트에 관심이 많고, 다양한 방법으로 기여하려고 노력하고 있습니다. 학부생 시절부터 지금까지 개인 프로젝트를 깃허브에 공개하였고 이와 관련된 100여개의 영상을 유튜브에 업로드하였습니다.<br><br>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -140,227 +135,19 @@
 				<!-- 좌측 내비게이션 (부트스트랩 nav-pills, flex-column 적용) -->
 				<div class="col-md-3">
 					<nav id="navi" class="nav nav-pills flex-column">
-						<li><a href="#page-1">Education</a></li>
-						<li><a href="#page-5">Awards</a></li>
-						<li><a href="#page-2">Experience</a></li>
 						<li><a href="#page-4">Projects</a></li>
-						<li><a href="#page-6">Patents</a></li>
+						<li><a href="#page-2">Experience</a></li>
 						<li><a href="#page-7">Language Skills</a></li>
+						<li><a href="#page-6">Patents</a></li>
+						<li><a href="#page-5">Awards</a></li>
 						<li><a href="#page-8">Tech Spec</a></li>
+						<li><a href="#page-1">Education</a></li>
+						<li><a href="#page-9">Etc.</a></li>
 					</nav>
 				</div>
 
 				<!-- 오른쪽 내용 -->
 				<div class="col-md-9">
-					<!-- Education Section (ID: page-1) -->
-					<div id="page-1" class="page one">
-						<h2 class="heading">Education</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023 ~ 현재</span>
-								<h2>정보통신공학과 석사 과정</h2>
-								<span class="position">Sejong University</span>
-								<p>
-									학점: 4.25 (4.5 만점 기준)<br>
-									세종대학교 자율지능시스템 연구실(AISL)에서 디지털 트윈 및 로보틱스 관련 연구 및 개발 수행.<br>
-									영국 Coventry University에 Visiting Researcher로 파견되어 다문화권 연구진과 프로젝트 진행.<br>
-									Into SKY 주최 AI Drone Challenge 3위 수상.<br>
-									ITRC 인재양성대전 코엑스 전시회 참여 및 연구 발표.<br>
-									Taipei Nangang Exhibition Center에서 열린 Taiwan International AIoT Show에서 개인 연구 프로젝트
-									전시.<br>
-									2024 서울 지능형 사물인터넷(AIoT) 해커톤 대회 본선 진출.<br>
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2020-2023</span>
-								<h2>전자정보통신공학과 학사 과정</h2>
-								<span class="position">Sejong University</span><br>
-								<p>
-									학점: 전체/전공 평점 4.16/4.13 (4.5 만점 기준)<br>
-									전문 작문 교육 수료 후 유학생 글쓰기 교정 튜터로 1년 활동.<br>
-									봉사 연합 동아리 로타랙트(2021.08 ~ 2023.08)에서 봉사부장으로 동아리 활성화 및 봉사활동 주도.<br>
-									대학교 후배 대상 일반 물리학 과외(2021.03 ~ 2022.10).<br>
-									ETSI 주최 Intelligent IoT ONEM2M Hackathon 3위 수상.<br>
-									2022 Mobius International oneM2M Hackathon에서 과학기술정보통신부 장관상 수상.<br>
-									2위, 3위 성적 장학금 수혜.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Awards Section (ID: page-5) -->
-					<div id="page-5" class="page five">
-						<h2 class="heading">Awards</h2>
-						<!-- 과학기술정보통신부 장관상 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2022.11</span>
-								<div class="d-flex">
-									<h2>과학기술정보통신부 장관상</h2>
-									<div>
-										&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://www.hackster.io/blossom/fire-situation-monitoring-system-through-connection-with-dt-365f98">
-											프로젝트 설명
-										</a>
-										&nbsp;&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://zdnet.co.kr/view/?no=20221129110326">
-											언론
-										</a>
-									</div>
-								</div>
-								<span class="position">2022 Mobius International oneM2M Hackathon</span><br>
-								<b class="text-primary">시나리오</b>
-								<p>
-									건물 내 화재 상황을 신속히 인지하고, 소방 당국에 알림과 동시에 디지털 트윈 상에 화재 구역을 표시하여
-									화재 현황 및 인명 구조를 지원하는 프로젝트.<br>
-									Isaac Sim으로 건물 3D 모델(5층 구조)을 구성하고, 화재 발생 및 인원 위치를 실시간 반영.<br>
-									AIaaS를 통해 CCTV 영상을 분석하여 인원 수와 관절(포즈 추정) 정보를 디지털 트윈에 시각화.
-								</p>
-								<b class="text-primary">맡은 역할</b>
-								<p>
-									Isaac Sim 환경 구성 및 화재(불, 연기) 시각화,<br>
-									Mobius로부터 사람 포즈 정보를 수신 후 Isaac Sim 휴머노이드에 실시간 동기화,<br>
-									Mobius RESTful API 연동을 통한 센서·로봇 데이터 관리 로직 구현.
-								</p>
-								<b class="text-primary">기술 스택</b>
-								<p>Python, Isaac Sim, Mobius Platform(RESTful API)</p>
-							</div>
-						</div>
-						<!-- Intelligent IoT ONEM2M Hackathon 3위 -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2021</span>
-								<h2>Intelligent IoT ONEM2M Hackathon 3위</h2>
-								<span class="position">ETSI</span>
-								<p>
-									ETSI와 세종대학교가 주관한 국제 표준 IoT 플랫폼 Mobius 활용 대회에서 3위 수상.
-								</p>
-							</div>
-						</div>
-						<!-- AI Drone Challenge -->
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024</span>
-								<div class="d-flex">
-									<h2>AI Drone Challenge 3위</h2>
-									<div>&nbsp;
-										<a class="btn btn-outline-secondary" target="_blank"
-											href="https://news.unn.net/news/articleView.html?idxno=560569">
-											언론
-										</a>
-									</div>
-								</div>
-								<span class="position">Into SKY</span>
-								<p>Into SKY 주최 AI Drone 챌린지에서 3위 수상.</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Experience Section (ID: page-2) -->
-					<div id="page-2" class="page two">
-						<h2 class="heading">Work Experience</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2025.02 ~ 현재</span>
-								<h2>Isaac Sim 책 집필</h2>
-								<p>로봇 시뮬레이션 소프트웨어 Isaac Sim의 입문자를 위한 서적 집필</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024.06 ~ 2024.12 (6개월)</span>
-								<h2>UK Coventry University Visiting Researcher</h2>
-								<span class="position">방문 연구원 (해외 인턴십)</span>
-								<p>
-									- 드론을 이용한 소포 수거 시스템 개발<br>
-									<b class="text-primary">기술 스택</b>
-								</p>
-								<p>
-									- SolidWorks, Blender, Krita, ROS2, ROS, OpenCV, Open3D, PX4 Autopilot,
-									gazebo-classic,
-									C++, Python
-								</p>
-								<b class="text-primary">성과</b>
-								<div>
-									<div>- 커스텀 드론 및 매니퓰레이터 설계, 3D 프린터 활용 프로젝트용 드론 제작</div>
-									<div>- PX4, Jetson Orin Nano, ESC, 프로펠러, 각종 센서 납땜 및 회로 연결</div>
-									<div>- Gazebo Classic SITL, HITL 테스트베드 구축</div>
-									<div>- Aruco Marker 기반 소포 위치 추정 및 그리퍼-소포 거리와 오차(tolerance) 계산 시스템 개발</div>
-									<div>- PX4 칼만 필터 설정 및 PID 튜닝 진행</div>
-									<div>- NEC 주최 Advanced Engineering Event에서 연구 개발 내용 전시</div>
-									<div>- 한ㆍ영 차세대 양자 인공지능 기술 워크샵(ACE 분과 특별 사업)에서 개인 연구 발표</div>
-								</div>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2024.07 ~ 2024.08</span>
-								<h2>제16회 유럽-한국 과학기술학술대회 (EKC 2024) 서포터즈</h2>
-								<span class="position">영국 워릭대학교, 코번트리</span><br>
-								<b class="text-primary">주요 활동</b>
-								<p>
-									- 학술 세션 운영 및 관리, SNS 홍보, 자료 출력 등 지원 업무 수행<br>
-									- 국제 학술 발표와 네트워킹 프로그램 진행 보조<br>
-									- 영어를 활용해 다양한 국적의 참가자 간 원활한 소통 촉진
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023.08 ~ 2021.08</span>
-								<h2>Rotaract 봉사부장</h2>
-								<span class="position">Sejong University</span>
-								<p>
-									코로나 시기로 인해 비활성화되던 동아리를 회복하기 위해 다수의 봉사활동을 기획 및 주도,<br>단합을 위해 다양한 행사 기획 및 진행
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2021.03 ~ 2021.12</span>
-								<h2>세종대학교 글쓰기 튜터</h2>
-								<span class="position">Sejong University</span>
-								<p>
-									유학생 글쓰기 교정 튜터로 활동하며, 학생들의 과제 및 에세이를 교정하고 피드백을 제공
-								</p>
-							</div>
-						</div>
-					</div>
-
 					<!-- Projects Section (ID: page-4) -->
 					<div id="page-4" class="page four">
 						<h2 class="heading">Projects</h2>
@@ -412,7 +199,8 @@
 								</div>
 								<span class="position">Coventry University, UK</span>
 								<div>
-									<b class="text-dark">기술 스택:</b>SolidWorks, Blender, Krita, FreeCAD, ROS2, OpenCV, Open3D, PX4 Autopilot, gazebo-classic, C++, Python, SITL, HITL
+									<b class="text-dark">기술 스택:</b>SolidWorks, Blender, Krita, FreeCAD, ROS2, OpenCV, Open3D, PX4 Autopilot,
+									gazebo-classic, C++, Python, SITL, HITL
 								</div>
 								<div>
 									<b class="text-dark">주요 기능:</b>커스텀 드론을 제작하여 가상환경 내에서 드론이 소포를 수거하는 시스템 개발
@@ -527,7 +315,8 @@
 									<b class="text-dark">기술 스택:</b>Isaac Sim, Python, ROS2, Mobius Platform, pixar API
 								</div>
 								<div>
-									<b class="text-dark">주요 기능:</b>Isaac Sim 시뮬레이터 구성 및 pixar API를 활용하여 화재 상황, 위험 지대, 안전 지대 시각화<br>사람 포즈를 휴머노이드에 적용하여 가상 환경에 동기화
+									<b class="text-dark">주요 기능:</b>Isaac Sim 시뮬레이터 구성 및 pixar API를 활용하여 화재 상황, 위험 지대, 안전 지대 시각화<br>사람 포즈를
+									휴머노이드에 적용하여 가상 환경에 동기화
 								</div>
 							</div>
 						</div>
@@ -587,22 +376,90 @@
 								</div>
 							</div>
 						</div>
+					</div>
+
+					<!-- Experience Section (ID: page-2) -->
+					<div id="page-2" class="page two">
+						<h2 class="heading">Work Experience</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<span class="date">2020.12 ~ 2021.01</span>
-								<div class="d-flex">
-									<h2>카카오톡 클론 코딩</h2>
-								</div>
-								<span class="position">사이드 프로젝트</span>
+								<span class="date">2025.02 ~ 현재</span>
+								<h2>Isaac Sim 책 집필</h2>
+								<p>로봇 시뮬레이션 소프트웨어 Isaac Sim의 입문자를 위한 서적 집필</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2024.06 ~ 2024.12 (6개월)</span>
+								<h2>UK Coventry University Visiting Researcher</h2>
+								<span class="position">방문 연구원 (해외 인턴십)</span>
+								<p>
+									- 드론을 이용한 소포 수거 시스템 개발<br>
+									<b class="text-primary">기술 스택</b>
+								</p>
+								<p>
+									- SolidWorks, Blender, Krita, ROS2, ROS, OpenCV, Open3D, PX4 Autopilot,
+									gazebo-classic,
+									C++, Python
+								</p>
+								<b class="text-primary">성과</b>
 								<div>
-									<b class="text-dark">기술 스택:</b>HTML, CSS, JavaScript
+									<div>- 커스텀 드론 및 매니퓰레이터 설계, 3D 프린터 활용 프로젝트용 드론 제작</div>
+									<div>- PX4, Jetson Orin Nano, ESC, 프로펠러, 각종 센서 납땜 및 회로 연결</div>
+									<div>- Gazebo Classic SITL, HITL 테스트베드 구축</div>
+									<div>- Aruco Marker 기반 소포 위치 추정 및 그리퍼-소포 거리와 오차(tolerance) 계산 시스템 개발</div>
+									<div>- PX4 칼만 필터 설정 및 PID 튜닝 진행</div>
+									<div>- NEC 주최 Advanced Engineering Event에서 연구 개발 내용 전시</div>
+									<div>- 한ㆍ영 차세대 양자 인공지능 기술 워크샵(ACE 분과 특별 사업)에서 개인 연구 발표</div>
 								</div>
-								<div>
-									<b class="text-dark">주요 기능:</b>내비게이션 바를 통한 채팅방 이동, 화면 전환, 메시지 전송
-								</div>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2023.08 ~ 2021.08</span>
+								<h2>Rotaract 봉사부장</h2>
+								<span class="position">Sejong University</span>
+								<p>
+									코로나 시기로 인해 비활성화되던 동아리를 회복하기 위해 다수의 봉사활동을 기획 및 주도,<br>단합을 위해 다양한 행사 기획 및 진행
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021.03 ~ 2021.12</span>
+								<h2>세종대학교 글쓰기 튜터</h2>
+								<span class="position">Sejong University</span>
+								<p>
+									유학생 글쓰기 교정 튜터로 활동하며, 학생들의 과제 및 에세이를 교정하고 피드백을 제공
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Language Skills Section (ID: page-7) -->
+					<div id="page-7" class="page seven">
+						<h2 class="heading">Language Skills</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-language"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2024</span>
+								<h2>OPIc: AL</h2>
+								<span class="position">English</span>
+								<p>준원어민 수준의 회화 실력 보유 – 영어로 업무 가능</p>
 							</div>
 						</div>
 					</div>
@@ -656,18 +513,81 @@
 						</div>
 					</div>
 
-					<!-- Language Skills Section (ID: page-7) -->
-					<div id="page-7" class="page seven">
-						<h2 class="heading">Language Skills</h2>
+					<!-- Awards Section (ID: page-5) -->
+					<div id="page-5" class="page five">
+						<h2 class="heading">Awards</h2>
+						<!-- 과학기술정보통신부 장관상 -->
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-language"></span>
+								<span class="flaticon-trophy"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2022.11</span>
+								<div class="d-flex">
+									<h2>과학기술정보통신부 장관상</h2>
+									<div>
+										&nbsp;
+										<a class="btn btn-outline-secondary" target="_blank"
+											href="https://www.hackster.io/blossom/fire-situation-monitoring-system-through-connection-with-dt-365f98">
+											프로젝트 설명
+										</a>
+										&nbsp;&nbsp;
+										<a class="btn btn-outline-secondary" target="_blank"
+											href="https://zdnet.co.kr/view/?no=20221129110326">
+											언론
+										</a>
+									</div>
+								</div>
+								<span class="position">2022 Mobius International oneM2M Hackathon</span><br>
+								<b class="text-primary">시나리오</b>
+								<p>
+									건물 내 화재 상황을 신속히 인지하고, 소방 당국에 알림과 동시에 디지털 트윈 상에 화재 구역을 표시하여
+									화재 현황 및 인명 구조를 지원하는 프로젝트.<br>
+									Isaac Sim으로 건물 3D 모델(5층 구조)을 구성하고, 화재 발생 및 인원 위치를 실시간 반영.<br>
+									AIaaS를 통해 CCTV 영상을 분석하여 인원 수와 관절(포즈 추정) 정보를 디지털 트윈에 시각화.
+								</p>
+								<b class="text-primary">맡은 역할</b>
+								<p>
+									Isaac Sim 환경 구성 및 화재(불, 연기) 시각화,<br>
+									Mobius로부터 사람 포즈 정보를 수신 후 Isaac Sim 휴머노이드에 실시간 동기화,<br>
+									Mobius RESTful API 연동을 통한 센서·로봇 데이터 관리 로직 구현.
+								</p>
+								<b class="text-primary">기술 스택</b>
+								<p>Python, Isaac Sim, Mobius Platform(RESTful API)</p>
+							</div>
+						</div>
+						<!-- Intelligent IoT ONEM2M Hackathon 3위 -->
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-trophy"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021</span>
+								<h2>Intelligent IoT ONEM2M Hackathon 3위</h2>
+								<span class="position">ETSI</span>
+								<p>
+									ETSI와 세종대학교가 주관한 국제 표준 IoT 플랫폼 Mobius 활용 대회에서 3위 수상.
+								</p>
+							</div>
+						</div>
+						<!-- AI Drone Challenge -->
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-trophy"></span>
 							</div>
 							<div class="text pl-3">
 								<span class="date">2024</span>
-								<h2>OPIc: AL</h2>
-								<span class="position">English</span>
-								<p>준원어민 수준의 회화 실력 보유 – 영어로 업무 가능</p>
+								<div class="d-flex">
+									<h2>AI Drone Challenge 3위</h2>
+									<div>&nbsp;
+										<a class="btn btn-outline-secondary" target="_blank"
+											href="https://news.unn.net/news/articleView.html?idxno=560569">
+											언론
+										</a>
+									</div>
+								</div>
+								<span class="position">Into SKY</span>
+								<p>Into SKY 주최 AI Drone 챌린지에서 3위 수상.</p>
 							</div>
 						</div>
 					</div>
@@ -786,6 +706,67 @@
 									</p>
 								</div>
 
+							</div>
+						</div>
+					</div>
+
+					<!-- Education Section (ID: page-1) -->
+					<div id="page-1" class="page one">
+						<h2 class="heading">Education</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2023 ~ 현재</span>
+								<h2>정보통신공학과 석사 과정</h2>
+								<span class="position">Sejong University</span>
+								<p>
+									학점: 4.25 (4.5 만점 기준)<br>
+									세종대학교 자율지능시스템 연구실(AISL)에서 디지털 트윈 및 로보틱스 관련 연구 및 개발 수행.<br>
+									영국 Coventry University에 Visiting Researcher로 파견되어 다문화권 연구진과 프로젝트 진행.<br>
+									Into SKY 주최 AI Drone Challenge 3위 수상.<br>
+									ITRC 인재양성대전 코엑스 전시회 참여 및 연구 발표.<br>
+									Taipei Nangang Exhibition Center에서 열린 Taiwan International AIoT Show에서 개인 연구 프로젝트
+									전시.<br>
+									2024 서울 지능형 사물인터넷(AIoT) 해커톤 대회 본선 진출.<br>
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2020-2023</span>
+								<h2>전자정보통신공학과 학사 과정</h2>
+								<span class="position">Sejong University</span><br>
+								<p>
+									학점: 전체/전공 평점 4.16/4.13 (4.5 만점 기준)<br>
+									전문 작문 교육 수료 후 유학생 글쓰기 교정 튜터로 1년 활동.<br>
+									봉사 연합 동아리 로타랙트(2021.08 ~ 2023.08)에서 봉사부장으로 동아리 활성화 및 봉사활동 주도.<br>
+									대학교 후배 대상 일반 물리학 과외(2021.03 ~ 2022.10).<br>
+									ETSI 주최 Intelligent IoT ONEM2M Hackathon 3위 수상.<br>
+									2022 Mobius International oneM2M Hackathon에서 과학기술정보통신부 장관상 수상.<br>
+									2위, 3위 성적 장학금 수혜.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Language Skills Section (ID: page-7) -->
+					<div id="page-9" class="page seven">
+						<h2 class="heading">Etc.</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-language"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2024</span>
+								<h2>제16회 유럽-한국 과학기술학술대회 (EKC 2024) 서포터즈</h2>
+								<span class="position">영국 워릭대학교</span>
+								<p>- 국제 학술 발표와 네트워킹 프로그램 진행 보조<br>
+								- 다양한 국적의 참가자 간 원활한 소통 촉진</p>
 							</div>
 						</div>
 					</div>
