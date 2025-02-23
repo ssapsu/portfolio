@@ -9677,3 +9677,45 @@ textarea.form-control {
   text-decoration: none;
   color: inherit;
 }
+/* 큰 제목 스타일 */
+.skill-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 카테고리 영역 스타일 */
+.skill-category {
+  margin-bottom: 30px;
+  /* 카테고리 간격 */
+}
+
+/* 카테고리 제목 (h3) 스타일 */
+.skill-category h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* 3열 레이아웃 */
+.three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* 3개의 컬럼 */
+  gap: 20px;
+  /* 컬럼 간격 */
+}
+
+.three-col ul {
+  /* 불릿 추가 */
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+  /* 불릿이 보이도록 왼쪽 여백 설정 */
+}
+
+.three-col li {
+  font-size: 16px;
+  margin-bottom: 3px;
+  /* 간격을 촘촘하게 */
+}
